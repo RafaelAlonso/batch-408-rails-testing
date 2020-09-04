@@ -3,8 +3,7 @@ cache:
   bundler: true
   yarn: true
 services:
-  - redis-server
-sudo: required
+  - redis
 before_install:
 - sudo apt-get update
 - sudo apt-get install google-chrome-stable
